@@ -1,0 +1,65 @@
+
+body{
+    background-color: rgb(206, 184, 207);
+}
+.header{
+    background-color: rgb(130, 31, 143);
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    color: aliceblue;
+    list-style: none;
+}
+.header h1{
+    font-size: 60px;
+}
+nav a{
+    padding: 10px;
+    align-items: center;
+    color: antiquewhite;
+    font-size: 30px;
+}
+.texto{
+    text-align: justify;
+    width: 700px;
+
+}
+.parte1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+#imagem1{
+    margin-left: 30%;
+    width: 500px;
+}
+/*..................carrossel*/
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.carousel-inner img {
+    width: 100%;
+}
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.carousel-button.prev {
+    left: 10px;
+}
+.carousel-button.next {
+    right: 10px;
+}
+  /* Adicione mais estilos para as transições e botões */
