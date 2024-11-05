@@ -38,6 +38,18 @@ nav a{
     text-align: center;
     font-weight: 900;
 }
+.graficos-container{
+   background-color: rgb(43, 34, 28);
+    width: 95%;
+    color: rgb(243, 248, 241);
+    margin-left:50px ;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    height: 110px;
+}
+
 .parte1{
     display: flex;
     justify-content: space-around;
