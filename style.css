@@ -1,0 +1,96 @@
+
+body{
+    background-color: rgb(8, 52, 146);
+}
+.header{
+    background-color:(241, 157, 157);
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    color: aliceblue;
+    list-style: none;
+}
+.header h1{
+    font-size: 60px;
+}
+ul{ display: flex;
+  
+}
+a {
+    text-decoration: none;
+}
+button {
+    background-color: #aec2ab(245, 100, 100);
+    height: 50px;
+    gap: 2px;
+    margin-top: 3%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 5px;
+    color: black;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #aec2ab, #434343);
+  }
+nav a{
+    padding: 10px;
+    color: #aec2ab(240, 215, 182);
+    font-size: 30px;
+    float: left;
+    display: block;
+}
+.texto{
+    text-align: justify;
+    width: 700px;
+
+}
+.texto1{
+    text-align: justify;
+    width: 90%;
+    color: rgb(97, 247, 10);
+    margin-left:80px ;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+}
+p{
+    padding: 10px;
+}
+.graficos-container {
+    background-color: rgb(12, 10, 8);
+    width: 95%;
+    color: rgb(240, 212, 237);
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    height: 110px;
+    text-align: justify;
+    gap: 10px;
+    border: 2px solid rgba(204, 43, 191, 0.5); /* Add a border with a semi-transparent color */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow */
+    padding-left: 5px;
+    padding-right: 25px;
+    height: 600px;
+    
+
+  }
+.parte1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: #aec2ab;
+    padding: 15px;
+}
+#imagem1{
+    margin-left: 30%;
+    width: 500px;
+}
+section{
+    height: auto;
+}
